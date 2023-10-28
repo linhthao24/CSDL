@@ -1,5 +1,5 @@
 create table csdl.subject(
-    MS char(10) not null,
+    MS char(10) not null primary key,
     Name_of_subject text(100) not null,
     Number_of_credits int not null,
     Major text(50) not null,
