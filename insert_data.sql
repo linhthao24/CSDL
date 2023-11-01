@@ -14,11 +14,13 @@ VALUES
 ('MGV5', 'Dr. Lee', 0, 'Chemistry', 1, 'Organic Chemistry', 'Associate');
 INSERT INTO csdl.subject (MS, Name_of_subject, Number_of_credits, Major, semester, Prerequisite, Number_of_student)
 VALUES
-('MS1', 'Mathematics', 4, 'Math', 1, '', 0),
-('MS2', 'Physics', 3, 'Physics', 1, '', 0),
-('MS3', 'Computer Programming', 3, 'Computer Science', 2, 'Mathematics', 0),
-('MS4', 'Digital Electronics', 3, 'Electrical Engineering', 2, 'Physics', 0),
-('MS5', 'Mechanics', 4, 'Mechanical Engineering', 3, 'Physics', 0);
+('TEL1343', 'Cơ sở dữ liệu', 3, 'Telecommunication', 1,'None',78),
+('TEL1469', 'Internet và các giao thức', 3, 'Internet', 2,'None',60),
+('TEL1401', 'An toàn mạng thông tin', 3, 'Security', 1, 'None',34),
+('TEL1346', 'Mạng truyền thông quang', 3, 'Telecommunication', 2,'None', 45),
+('SKD1108', 'Phương pháp luận nghiên cứu khoa học', 2, 'Kỹ năng', 3, 'None', 80),
+('TEL1415', 'Thông tin di động', 3, 'Telecommunication', 7, 'None', 56),
+('BAS1153', 'Lịch sử Đảng cộng sản Việt Nam', 2, 'Triết học', 4, 'None',67);
 INSERT INTO csdl.subject_studied (student_id, subject_id)
 VALUES
 ('MSV1', 'MS1'),
