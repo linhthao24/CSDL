@@ -7,13 +7,13 @@ VALUES
 ('MSV5', 'Eve Davis', '2002-07-05', 0, '202 Cedar St', 'Chemistry', '2021-09-01', 1, 'Class B', 0);
 INSERT INTO csdl.lecturers (MGV, Full_name, Gender, Major, Role, Teaching_subject, Seniority)
 VALUES
-('MGV1', 'V.T.T.Hà', 'Male', 'Internet', 'Role1', 'Cơ sở dữ liệu', 'Senior'),
-('MGV2', 'N.Đ.Long', 'Male', 'Internet', 'Role2', 'Internet và giao thức', 'Associate'),
-('MGV3', 'N.T.Trà', 'Female', 'CNTT', 'Role3', 'An toàn mạng thông tin', 'Professor'),
-('MGV4', 'N.T.T.Nga', 'Female', 'TTQ', 'Role4', 'Mạng truyền thông quang', 'Senior'),
-('MGV5', 'N.V.Đảm', 'Male', 'Telecommunication', 'Role5', 'Thông tin di động', ‘Associate’),
-('MGV6', 'P.T.T.Hiền', 'Telecommunication', 'Major6', 'Role6', 'Thông tin di động', 'Senior'),
-('MGV7', 'N.T.K.Chi', 'Female', 'KNM', 'Role7', 'PPLNCKH', 'Senior');
+('MGV1', 'V.T.T.Hà', 0, 'Internet', 1, 'Cơ sở dữ liệu', 'Senior'),
+('MGV2', 'N.Đ.Long', 1, 'Internet', 1, 'Internet và giao thức', 'Associate'),
+('MGV3', 'N.T.Trà', 0, 'CNTT', 1, 'An toàn mạng thông tin', 'Professor'),
+('MGV4', 'N.T.T.Nga', 0, 'TTQ', 1, 'Mạng truyền thông quang', 'Senior'),
+('MGV5', 'N.V.Đảm', 1, 'Telecommunication', 1, 'Thông tin di động', ‘Associate’),
+('MGV6', 'P.T.T.Hiền', 0, 'Telecommunication', 1, 'Thông tin di động', 'Senior'),
+('MGV7', 'N.T.K.Chi', 0, 'KNM', 1, 'PPLNCKH', 'Senior');
 INSERT INTO csdl.subject (MS, Name_of_subject, Number_of_credits, Major, semester, Prerequisite, Number_of_student)
 VALUES
 ('TEL1343', 'Cơ sở dữ liệu', 3, 'Telecommunication', 1,'None',78),
