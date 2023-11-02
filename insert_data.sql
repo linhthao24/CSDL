@@ -57,18 +57,22 @@ VALUES
   ('MSV5', 'example5@example.com');
   INSERT INTO csdl.phone_numbers_lecturers (lecturers_id, phone_number)
 VALUES
-  ('MGV1', '0123456789'),
-  ('MGV2', '0123456798'),
-  ('MGV3', '0123456879'),
-  ('MGV4', '0123456789'),
-  ('MGV5', '0123456798');
+  ('MGV1', '0915054369'),
+  ('MGV2', '0987335421'),
+  ('MGV3', '0953226734'),
+  ('MGV4', '0946553630'),
+  ('MGV5', '0982950357'),
+  ('MGV6', '0975435730'),
+  ('MGV7', '0937865247');
   INSERT INTO csdl.emails_lecturers (lecturers_id, email_address)
 VALUES
-  ('MGV1', 'example11@example.com'),
-  ('MGV2', 'example12@example.com'),
-  ('MGV3', 'example13@example.com'),
-  ('MGV4', 'example14@example.com'),
-  ('MGV5', 'example15@example.com');
+  ('MGV1', 'havt@ptit.edu.vn'),
+  ('MGV2', 'longnd@ptit.edu.vn'),
+  ('MGV3', 'trant@ptit.edu.vn'),
+  ('MGV4', 'ngantt@ptit.edu.vn'),
+  ('MGV5', 'damnv@ptit.edu.vn'),
+  ('MGV6', 'hienptt@ptit.edu.vn'),
+  ('MGV7', 'chintk@ptit.edu.vn');
   INSERT INTO csdl.manage (Lecturers_ID, Subject_ID)
 VALUES
 ('MGV1', 'TEL1343'),
@@ -87,5 +91,4 @@ VALUES
 ('MGV7', 'SKD1108'),
 ('MGV2', 'TEL1415'),
 ('MGV3', 'TEL1415'),
-('MGV1', 'TEL1415');
-  
+('MGV1', 'TEL1415'); 
