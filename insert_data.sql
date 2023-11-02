@@ -7,11 +7,13 @@ VALUES
 ('MSV5', 'Eve Davis', '2002-07-05', 0, '202 Cedar St', 'Chemistry', '2021-09-01', 1, 'Class B', 0);
 INSERT INTO csdl.lecturers (MGV, Full_name, Gender, Major, Role, Teaching_subject, Seniority)
 VALUES
-('MGV1', 'Dr. Smith', 1, 'Computer Science', 1, 'Data Structures', 'Senior'),
-('MGV2', 'Prof. Johnson', 0, 'Electrical Engineering', 1, 'Circuit Design', 'Associate'),
-('MGV3', 'Dr. White', 1, 'Mechanical Engineering', 1, 'Thermodynamics', 'Professor'),
-('MGV4', 'Prof. Brown', 1, 'Civil Engineering', 1, 'Structural Analysis', 'Senior'),
-('MGV5', 'Dr. Lee', 0, 'Chemistry', 1, 'Organic Chemistry', 'Associate');
+('MGV1', 'V.T.T.Hà', 'Male', 'Internet', 'Role1', 'Cơ sở dữ liệu', 'Senior'),
+('MGV2', 'N.Đ.Long', 'Male', 'Internet', 'Role2', 'Internet và giao thức', 'Associate'),
+('MGV3', 'N.T.Trà', 'Female', 'CNTT', 'Role3', 'An toàn mạng thông tin', 'Professor'),
+('MGV4', 'N.T.T.Nga', 'Female', 'TTQ', 'Role4', 'Mạng truyền thông quang', 'Senior'),
+('MGV5', 'N.V.Đảm', 'Male', 'Telecommunication', 'Role5', 'Thông tin di động', ‘Associate’),
+('MGV6', 'P.T.T.Hiền', 'Telecommunication', 'Major6', 'Role6', 'Thông tin di động', 'Senior'),
+('MGV7', 'N.T.K.Chi', 'Female', 'KNM', 'Role7', 'PPLNCKH', 'Senior');
 INSERT INTO csdl.subject (MS, Name_of_subject, Number_of_credits, Major, semester, Prerequisite, Number_of_student)
 VALUES
 ('TEL1343', 'Cơ sở dữ liệu', 3, 'Telecommunication', 1,'None',78),
@@ -69,9 +71,21 @@ VALUES
   ('MGV5', 'example15@example.com');
   INSERT INTO csdl.manage (Lecturers_ID, Subject_ID)
 VALUES
-  ('MGV1', 'MS1'),
-  ('MGV2', 'MS2'),
-  ('MGV3', 'MS3'),
-  ('MGV4', 'MS4'),
-  ('MGV5', 'MS5');
+('MGV1', 'TEL1343'),
+('MGV2', 'TEL1343'),
+('MGV3', 'TEL1343'),
+('MGV4', 'TEL1343'),
+('MGV5', 'TEL1469'),
+('MGV6', 'TEL1469'),
+('MGV2', 'TEL1469'),
+('MGV3', 'TEL1401'),
+('MGV5', 'TEL1401'),
+('MGV6', 'TEL1401'),
+('MGV4', 'TEL1346'),
+('MGV3', 'TEL1346'),
+('MGV2', 'TEL1346'),
+('MGV7', 'SKD1108'),
+('MGV2', 'TEL1415'),
+('MGV3', 'TEL1415'),
+('MGV1', 'TEL1415');
   
